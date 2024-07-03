@@ -210,7 +210,7 @@ void setup() {
   SpaceCadetConfig.disableSpaceCadetIfUnconfigured();
 
   // Adjust to allow for a longer delay between keys to be considered a chord
-  Qukeys.setOverlapThreshold(70);
+  Qukeys.setOverlapThreshold(50);
 }
 
 void loop() {
